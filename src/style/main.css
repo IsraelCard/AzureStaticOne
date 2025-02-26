@@ -1,0 +1,42 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+img{
+    border-radius: 5%;
+}
+
+button{
+    height: fit-content;
+}
+header{
+    border-bottom: 1px solid #000;
+    margin-bottom: 30px;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    }
+
+.GridBtn{
+    margin: 0;
+    width: fit-content;
+    height: fit-content ;
+}
+
+.Imagefoot{
+    padding: 20px;
+    margin: 0;
+    font-size: large;
+}
+
+.GridImg{
+    width: 400px;
+    height:250px;
+    object-fit: cover;
+}
